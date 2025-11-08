@@ -1,11 +1,9 @@
-/* Сброс стилей для всех элементов */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/* Базовые стили страницы */
 body {
   width: 1100px;
   margin: 0 auto;
@@ -15,7 +13,6 @@ body {
   line-height: normal;
 }
 
-/* Обнуление отступов для типографики */
 h1,
 h2,
 h3,
@@ -31,12 +28,10 @@ blockquote {
   padding: 0;
 }
 
-/* Стили для ссылок - наследуют цвет родителя */
 a {
   color: inherit;
 }
 
-/* Изображения занимают всю ширину контейнера */
 img {
   width: 100%;
   display: block;
