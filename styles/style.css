@@ -112,22 +112,18 @@
 
 .cover__title-word_aligned-text_left {
   align-self: flex-start;
-  line-height: 115px;
-  margin-right: -0.3em;
 }
 
 .cover__title-word_aligned-text_center {
   align-self: center;
   text-align: center;
-  line-height: 115px;
-  margin-right: -0.3em;
+  margin-right: -30px;
 }
 
 .cover__title-word_aligned-text_right {
   align-self: flex-end;
   text-align: right;
-  line-height: 115px;
-  margin-right: -0.3em;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -256,7 +252,6 @@
 
 .about {
   width: 1052px;
-  height: 595px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: end;
@@ -275,11 +270,6 @@
   padding-top: 35px;
 }
 
-.about__column:last-child {
-  width: 693px;
-  height: 462px;
-}
-
 .about__logo {
   display: flex;
   justify-content: center;
@@ -296,7 +286,6 @@
 }
 
 .about__title {
-  width: 291px;
   font-size: 40px;
   font-weight: 700;
   line-height: normal;
@@ -317,7 +306,6 @@
 
 .footer {
   width: 1100px;
-  height: 180px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
