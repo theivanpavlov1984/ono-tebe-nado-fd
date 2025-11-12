@@ -291,6 +291,7 @@
   line-height: normal;
   text-transform: uppercase;
   white-space: nowrap;
+  margin-top: 133px;
   margin-bottom: 100px;
 }
 
@@ -309,7 +310,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: start;
-  padding: 0 50px;
+  padding: 0 50px 92px;
   margin: 0 auto;
 }
 
